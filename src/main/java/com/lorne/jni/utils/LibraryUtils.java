@@ -29,10 +29,10 @@ public class LibraryUtils {
             field.set(null, tmp);
         } catch (IllegalAccessException e) {
             throw new IOException(
-                    "Failedto get permissions to set library path");
+                    "failed to get permissions to set library path");
         } catch (NoSuchFieldException e) {
             throw new IOException(
-                    "Failedto get field handle to set library path");
+                    "failed to get field handle to set library path");
         }
     }
 
